@@ -1,0 +1,36 @@
+.nav-link {
+	color: #E84545;
+	font-weight: bold;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.2em;
+}
+
+.nav-link:hover {
+	color: #F2F1F1;
+	transition: 0.5s;
+}
+
+.navbar-brand span {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	top: 5px;
+	color: #E84545;
+	margin-left: 10px;
+	letter-spacing: 5px;
+
+}
+
+.navbar-brand {
+	border-bottom: 5px double #F2F1F1;
+}
+
+.navbar-brand:hover {
+	border-bottom: 5px double #E84545;
+	transition: 0.5s;
+}
+
+.navbar-toggler {
+	background-color: #E84545;
+}
