@@ -1,0 +1,25 @@
+footer {
+	margin: 0 auto;
+	background-color: #212529;
+	color: #A5A29A;
+	height: 120px;
+}
+
+.social-media {
+	padding: 20px;
+}
+
+.social-media a {
+	padding: 5px;
+	font-size: 2em;
+	text-decoration: none;
+	color: #AA827A;
+}
+.social-media a:hover {
+	color: #E84545;
+	transition: 0.3s;
+}
+
+.fa-heart {
+	color: red;
+}
