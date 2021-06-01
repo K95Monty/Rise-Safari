@@ -41,16 +41,53 @@ body {
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) { 
-	
+	header h1 {
+		font-size: 2.5em;
+	}
+	header h2 {
+		font-size: 1.2em;
+	}
+	header a {
+		font-size: 1em;
+	}
 }
+
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
+	header {
+		text-align: center;
+	}
 	.card-body {
 		font-size: 1em;
 	}
 	.card-title {
-		font-size: 1.2em;
+		font-size: 2em;
+	}
+	.header-cover-bg {
+		height: 600px;
+	}
+	.header-bg {
+		height: 600px;
+	}
+	.review img {
+		display: none;
+	}
+	.review-content {
+		height: 300px;
+		overflow-y: scroll;
+	}
+	.review-stars {
+		display: none;
+	}
+	.reviews-cover-bg, .reviews-bg {
+		height: 800px;
+	}
+	.carousel {
+		height: 800px;
+	}
+	.header-img {
+		display: none;
 	}
 }
 
@@ -58,17 +95,22 @@ body {
 @media (max-width: 1199.98px) {
 	.products h2 {
 		font-size: 1.8em;
+		padding-bottom: 50px;
+		padding-top: 0;
 	}
 	.card-img-top {
-	max-height: 400px;
-	min-height: 200px;
+		max-height: 400px;
+		min-height: 200px;
+	}
+	#reviews h2{
+		font-size: 1.8em;
+	}
+	.header-img img {
+		width: 550px;
 	}
 }	
 
 /*X-Large devices (large desktops, less than 1400px)*/
 @media (max-width: 1650px) {
-	.header-img img {
-	height: auto;
-	max-width: 800px;
-	}
+
 }
