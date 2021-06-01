@@ -1,0 +1,49 @@
+#rs-contact {
+	background-color: #F2F1F1;
+}
+
+.contact-cover-bg {
+	background-image: url('images/noisy-texture.png');
+	opacity: 0.4;
+	z-index: -2;	
+	width: 100%;
+	height: 550px;
+	position: absolute;
+	transform: skewY(2deg);
+  	transform-origin: bottom left;
+}
+
+
+.contact-header-bg {
+	z-index: -5;
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	background: #151515;
+		background: -moz-linear-gradient(45deg, #151515 0%, #373737 56%, #676767 100%);
+		background: -webkit-linear-gradient(45deg, #151515 0%, #373737 56%, #676767 100%);
+		background: linear-gradient(45deg, #151515 0%, #373737 56%, #676767 100%);
+	transform: skewY(2deg);
+  transform-origin: bottom left;
+  );
+}
+
+#contact-header {
+	margin-bottom: 100px;
+}
+
+#contact-header img {
+	height: 300px;
+	width: auto;
+	padding-left: 100px;
+}
+
+#contact-header h2 {
+	padding: 100px 0;
+}
+
+#contact-header p {
+	padding-top: 30px;
+	font-weight: bold;
+	color: #AA827A;
+}
