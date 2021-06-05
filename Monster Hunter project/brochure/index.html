@@ -44,18 +44,16 @@
 		</div>
 		<div class="header-bg">
 		</div>
-		<header>
-			<div class="row align-items-center justify-content-center container body-content">
-				<div class="col-lg-4 col-md-12">
-					<div class="header-content">
-						<div id="header-title row">
-							<img src="Logo.png" alt="">
-							<h1 id="heading">Rise <span class="heading-rotate">Safari</span></h1>
-						</div>
-						<div class="header-text">
+		<header class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-4 header-text">
+					<div class="row justify-content-center">
+						<img src="Logo.png" alt="">
+						<h1>Rise Safari</h1>
+					</div>
+					<div class="row justify-content-lg-start justify-content-md-center">	
 							<h2>The perfect stop, for all your Monster Hunter needs</h2>
 							<a href="#product">Take a Look</a>
-						</div>
 					</div>
 				</div>
 				<div class="col-lg-8 header-img">
@@ -63,13 +61,11 @@
 				</div>
 			</div>
 		</header>
-		
-		<main id="product">
-			<div >
-				<div class="products">
-					<h2>Our Products</h2>
-				</div>
-				<div class="cards container">
+<!--Products-->		
+		<main>
+			<div id="products">
+				<h2>Our Products</h2>
+				<div class="product-cards container">
 					<div class="row justify-content-center">
 						<div class="col-lg-4" >
 							<div class="card">
@@ -84,79 +80,109 @@
 							</div>
 						</div>
 						<div class="col-lg-4" >
-						<div class="card">
-							<div class="card-hover">
-								<a href="" class="card-hover-link">Look At Gear</a>
-							</div>
-							<img class="card-img-top" src="css/components/images/cardimg2.png" alt="Card image cap">
-							<div class="card-body">
-								<h3 class="card-title">Weapons & Armour</h3>
-								<p class="card-text">The best gear for all your Monster Hunter needs.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4" >
-						<div class="card">
-							<div class="card-hover">
-								<a href="">See Collection</a>
-							</div>
-							<img class="card-img-top" src="css/components/images/cardimg3.png" alt="Card image cap">
-							<div class="card-body">
-								<h3 class="card-title">Items & Crafting</h3>
-								<p class="card-text">Our collection of items and crafting materials so you can upgrade</p>
+							<div class="card">
+								<div class="card-hover">
+									<a href="" class="card-hover-link">Look At Gear</a>
+								</div>
+								<img class="card-img-top" src="css/components/images/cardimg2.png" alt="Card image cap">
+								<div class="card-body">
+									<h3 class="card-title">Weapons & Armour</h3>
+									<p class="card-text">The best gear for all your Monster Hunter needs.</p>
+								</div>
 							</div>
 						</div>
-					</div>
+						<div class="col-lg-4" >
+							<div class="card">
+								<div class="card-hover">
+									<a href="">See Collection</a>
+								</div>
+								<img class="card-img-top" src="css/components/images/cardimg3.png" alt="Card image cap">
+								<div class="card-body">
+									<h3 class="card-title">Items & Crafting</h3>
+									<p class="card-text">Our collection of items and crafting materials so you can upgrade</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+<!--Publishers/Companies-->
+			<div class="business-cover-bg">
+			</div>
+			<div class="business-bg">
+			</div>
+			<div id="business" class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>We've Worked With</h2>
+					</div>
+					<div class="col-md-6">
+						<div id="business-logos">
+							<div class="d-flex flex-row justify-content-around">
+								<img src="css/components/images/mh-logo.png">
+								<img src="css/components/images/msi.png">
+								<p>hello1</p>
+								<p>hello1</p>
+								<p>hello1</p>
+							</div>
+							<div class="d-flex flex-row justify-content-around">
+								<p>hello</p>
+								<p>hello</p>
+								<p>hello</p>
+								<p>hello</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+<!--Reviews-->
 			<div class="reviews-cover-bg">
 			</div>
 			<div class="reviews-bg">
 			</div>
 			<div id="reviews">
 				<h2>What Our Customers Say</h2>
-				<div id="carouselExampleControls" class="carousel slide container-fluid" data-bs-ride="carousel">
+				<div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
   					<div class="carousel-inner">
     					<div class="carousel-item active">
 	  		  				<div class="review">
 							    <img src="css/components/images/commander.jpg" alt="">
-							    <div class="review-content sm-screen start">
+							    <div class="review-content">
 		    						<h3>Commander</h3>
-							    	<p>Hunters! You're going to need this to fully prepare for Zorah Magdoras!</p>
+							    	<p>Hunters! You're going to need this to fully prepare for Zorah Magdoras, go get him!</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    		<i class="far fa-star"></i>
 							    	</div>
 		    					</div>
 	    					</div>
-						    <div class="review">
+						    <div class="review to-display">
 							    <img src="css/components/images/handler.jpg" alt="">
-							    <div class="review-content sm-screen">
+							    <div class="review-content">
 							    	<h3>Handler</h3>
 							    	<p>Me and my padner always come here to stock up before our hunting. Highly recommend.</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    	</div>
 							    </div>
 						    </div>
-						    <div class="review">
+						    <div class="review to-display">
 							    <img src="css/components/images/fieldleader.jpg" alt="">
-							    <div class="review-content sm-screen">
+							    <div class="review-content">
 							    	<h3>Field Team Leader</h3>
 							    	<p>Their items have gotten me out of more Devil Jho pickles than I can count.</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    		<i class="far fa-star"></i>
 							    	</div>
 							    </div>
@@ -165,43 +191,43 @@
 					    <div class="carousel-item">
 					      <div class="review">
 							    <img src="css/components/images/palico.jpg" alt="">
-							    <div class="review-content sm-screen start">
+							    <div class="review-content">
 							    	<h3>Palico</h3>
 							    	<p>Meow Meow meow mewster meowwwwww! Meow/Meow</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    	</div>
 							    </div>
 						    </div>
-						    <div class="review">
+						    <div class="review to-display">
 							    <img src="css/components/images/provisionsmanager.jpg" alt="">
-							    <div class="review-content sm-screen">
+							    <div class="review-content">
 							    	<h3>Provisions Manager</h3>
 							    	<p>Amazing getting our investigations completed. We use these guys all the time now.</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    	</div>
 							    </div>
 						    </div>
-						    <div class="review">
+						    <div class="review to-display">
 							    <img src="css/components/images/alister.jpg" alt="">
-							    <div class="review-content sm-screen">
+							    <div class="review-content">
 							    	<h3>Excitable A-Lister</h3>
 							    	<p>With these guys I finally managed to hunt my first monster and it was kdjfndkjndjk!</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    	</div>
 							    </div>
 						    </div>
@@ -209,42 +235,42 @@
 					    <div class="carousel-item">
 					      <div class="review">
 							    <img src="css/components/images/tracker.jpg" alt="">
-							    <div class="review-content sm-screen start">
+							    <div class="review-content">
 							    	<h3>The Tracker</h3>
 							    	<p>Excellent service. Well done Rise Safari, I'll definitely be using you again.</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    	</div>
 							    </div>
 						    </div>
-						    <div class="review">
+						    <div class="review to-display">
 							    <img src="css/components/images/seeker.jpg" alt="">
-							    <div class="review-content sm-screen">
+							    <div class="review-content">
 							    	<h3>The Seeker</h3>
-							    	<p>This place has many weapons. I like it and my colleagues love it!</p>
+							    	<p>I like it and my colleagues swear by it! Would be dead otherwise...</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    	</div>
 							    </div>
 						    </div>
-						    <div class="review">
+						    <div class="review to-display">
 							    <img src="css/components/images/admiral.webp" alt="">
-							    <div class="review-content sm-screen">
+							    <div class="review-content">
 							    	<h3>Admiral</h3>
-							    	<p>I  I'm already the best! But I could always do with extra potions for a fight!</p>
+							    	<p>I  I'm already the best! But I could always do with the extra potions for a fight!</p>
 							    	<div class="review-stars">
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
-							    		<i class="far fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
+							    		<i class="fas fa-star"></i>
 							    		<i class="far fa-star"></i>
 							    	</div>
 							    </div>
