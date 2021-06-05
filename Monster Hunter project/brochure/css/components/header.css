@@ -1,3 +1,4 @@
+/*Header Background*/
 .header-cover-bg {
 	background-image: url('images/noisy-texture.png');
 	opacity: 0.4;
@@ -24,38 +25,28 @@
 }
 
 header {
-	padding: 100px;
-	width: 100%;
 	color: #E84545;
+	padding-top: 100px;
+	width: 80%;
 }
 
-.header-content {
-	position: relative;
-	top: -60px;
-}
-
-#header-title {
+.header-text h1 {
 	padding-bottom: 20px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.8), 0px -5px 35px rgba(255,255,255,0.3);
 }
 
-#header-title img {
+.header-text img {
 	height: 100px;
 	width: 100px;
 	margin: 0 auto;
 }
 
-header h1 {
-	font-family: 'Merriweather', serif;
-	text-transform: uppercase;
-	padding: 30px 0;
-	margin: 0 auto;
-	font-size: 4em;
-	font-weight: bold;
-	text-shadow: 2px 8px 6px rgba(0,0,0,0.8), 0px -5px 35px rgba(255,255,255,0.3);
-	white-space: nowrap;
-}
-
-header h2 {
+.header-text h2 {
 	font-family: 'Noto Sans JP', sans-serif;
 	line-height: 1.5;
 	font-size: 1.5em;
@@ -63,29 +54,21 @@ header h2 {
 	padding: 20px 0;
 }
 
-header a {
+.header-text a {
 	padding: 15px;
 	font-size: 1.5em;
 	font-family: 'Noto Sans JP', sans-serif;
 	text-decoration: none;
+	text-align: center;
 	border-radius: 4px;
 	border: 3px solid #AA827A;
-	color: #A5A29A;
+	color: #F2F1F1;
+	width: 200px;
 }
 
-header a:hover {
+.header-text a:hover {
 	border: 4px solid #E84545;
 	color: #F2F1F1;
 	transition: 0.3s;
-	background-color: rgba(170, 130, 122, 0.7);
-}
-
-.header-img {
-	margin-top: 50px;
-	object-fit: contain;
-}
-
-.header-img img {
-	height: auto;
-	width: 700px;
+	background-color: rgba(170, 130, 122, 0.5);
 }
