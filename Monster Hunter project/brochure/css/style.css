@@ -44,20 +44,20 @@ body {
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 768px) { 
-		.to-display {
-			display: none;
-		}
+	.to-display {
+		display: none;
+	}
 }
 
 /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
-	.header-text h2 {
+	.header-text {
+		padding: 30px;
+	}
+	.header-text h1, h2{
 		text-align: center;
 	}
-	#contact-header {
-		text-align: center;
-	}
-	#contact-text {
+	#contact-header, #contact-text {
 		text-align: center;
 	}
 }
