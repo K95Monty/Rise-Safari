@@ -28,7 +28,7 @@
 }
 
 #contact-page {
-	min-height: 800px;
+	min-height: 600px;
 	max-height: 1000px;
 }
 
@@ -75,4 +75,29 @@
 	color: #F2F1F1;
 	transition: 0.3s;
 	background-color: rgba(170, 130, 122, 0.5);
+}
+
+#contact-text p {
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #F2F1F1;
+	padding: 30px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#contact-small {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px;
+	font-size: 1.5em;
+	color: #151515;
+}
+
+#contact-small i {
+	display: block;
+	font-size: 3em;
+	color: #F2F1F1;
+	opacity: 0.8;
+	padding: 20px;
 }
