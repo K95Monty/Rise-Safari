@@ -1,7 +1,3 @@
-#rs-contact {
-	background-color: #F2F1F1;
-}
-
 .contact-cover-bg {
 	background-image: url('images/noisy-texture.png');
 	opacity: 0.4;
@@ -12,7 +8,6 @@
 	transform: skewY(2deg);
   	transform-origin: bottom left;
 }
-
 
 .contact-header-bg {
 	z-index: -5;
@@ -29,21 +24,55 @@
 }
 
 #contact-header {
-	margin-bottom: 100px;
+	width: 100%;
 }
 
-#contact-header img {
-	height: 300px;
-	width: auto;
-	padding-left: 100px;
+#contact-page {
+	min-height: 800px;
+	max-height: 1000px;
 }
 
-#contact-header h2 {
-	padding: 100px 0;
-}
-
-#contact-header p {
-	padding-top: 30px;
+#contact-header h1 {
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+	font-size: 4em;
 	font-weight: bold;
-	color: #AA827A;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.8), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+#contact-text {
+	text-align: center;
+	padding: 50px;
+}
+
+#contact-text h2 {
+	font-weight: bold;
+	color: #F2F1F1;
+	font-size: 1.5em;
+}
+
+#contact-text h3 {
+	font-weight: bold;
+	color: #F2F1F1;
+	font-size: 1.4em;
+	padding-bottom: 30px;
+}
+
+#contact-text a {
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 4px;
+	border: 3px solid #AA827A;
+	color: #F2F1F1;
+	width: 200px;
+}
+
+#contact-text a:hover {
+	border: 4px solid #E84545;
+	color: #F2F1F1;
+	transition: 0.3s;
+	background-color: rgba(170, 130, 122, 0.5);
 }
