@@ -1,4 +1,8 @@
-.products h2 {
+#products {
+	padding-bottom: 10px;
+}
+
+#products h2 {
 	padding: 50px;
 	text-align: center;
 	color: #F2F1F1;
@@ -8,7 +12,7 @@
 	text-shadow: 2px 8px 6px rgba(0,0,0,0.8), 0px -5px 35px rgba(255,255,255,0.3);
 }
 
-.cards {
+.product-cards {
 	padding-bottom: 50px;
 }
 
