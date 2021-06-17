@@ -2,7 +2,8 @@ footer {
 	margin: 0 auto;
 	background-color: #212529;
 	color: #A5A29A;
-	height: 120px;
+	min-height: 120px;
+	max-height: 200px;
 }
 
 .social-media {
@@ -22,4 +23,8 @@ footer {
 
 .fa-heart {
 	color: red;
+}
+
+.copyright span {
+	padding-bottom: 10px;
 }
