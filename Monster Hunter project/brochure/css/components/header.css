@@ -30,15 +30,13 @@ header {
 	width: 80%;
 }
 
-/*
-}
-*/
 .header-text h1 {
 	padding-bottom: 20px;
 	font-family: 'Merriweather', serif;
 	text-transform: uppercase;
 	font-size: 4em;
 	font-weight: bold;
+	text-align: center;
 	text-shadow: 2px 8px 6px rgba(0,0,0,0.8), 0px -5px 35px rgba(255,255,255,0.3);
 }
 
@@ -53,11 +51,12 @@ header {
 	line-height: 1.5;
 	font-size: 1.5em;
 	color: #F2F1F1;
-	padding: 20px 0;
+	padding: 20px 20px;
 }
 
 .header-text a {
 	padding: 15px;
+	margin: 20px;
 	font-size: 1.5em;
 	font-family: 'Noto Sans JP', sans-serif;
 	text-decoration: none;
