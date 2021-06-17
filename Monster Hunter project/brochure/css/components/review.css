@@ -61,7 +61,8 @@
 .review-content p {
 	font-family: 'Noto Sans JP', sans-serif;
 	line-height: 1.5;
-	color: #A5A29A;
+	color: #F2F1F1;
+	text-align: left;
 }
 
 .review img {
