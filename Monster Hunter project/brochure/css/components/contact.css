@@ -49,6 +49,7 @@
 	font-weight: bold;
 	color: #F2F1F1;
 	font-size: 1.5em;
+	font-family: 'Merriweather', serif;
 }
 
 #contact-text h3 {
@@ -83,6 +84,12 @@
 	padding: 30px;
 	font-size: 1.4em;
 	font-weight: bold;
+}
+
+#contact-page img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
 }
 
 #contact-small {
