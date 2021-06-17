@@ -8,6 +8,12 @@
 .nav-link:hover {
 	color: #F2F1F1;
 	transition: 0.5s;
+	text-decoration: none;
+}
+
+.active-link a {
+	color: #AA827A;
+	text-decoration: underline;
 }
 
 .navbar-brand span {
