@@ -28,15 +28,6 @@
 
 }
 
-.navbar-brand {
-	border-bottom: 5px double #F2F1F1;
-}
-
-.navbar-brand:hover {
-	border-bottom: 5px double #E84545;
-	transition: 0.5s;
-}
-
 .navbar-toggler {
 	background-color: #E84545;
 }
