@@ -1,0 +1,98 @@
+@import url(components/nav.css);
+@import url(components/header.css);
+@import url(components/review.css);
+@import url(components/product.css);
+@import url(components/footer.css);
+@import url(components/business.css);
+@import url(components/contact.css);
+@import url(components/about.css);
+
+
+/*
+#F2F1F1 white
+#A5A29A grey
+#E84545 red
+#AA827A pink
+#151515 black
+*/
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #E84545;
+}
+
+.body-content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.mobile-view {
+	display: none;
+}
+
+/*RESPONSIE MEDIA QUERIES/BREAKPOINTS*/
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.card-body {
+		font-size: 16px;
+	}
+	.card-title {
+		font-size: 18px;
+	}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) { 
+	.to-display {
+		display: none;
+	}
+	.reviews-cover-bg, .reviews-bg {
+		height: 700px;
+	}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	.header-text {
+		padding: 30px;
+	}
+	.header-text h1 {
+		font-size: 3em;
+	}
+
+	.header-text h1, h2{
+		text-align: center;
+	}
+	#contact-header, #contact-text, #about-header {
+		text-align: center;
+	}
+	.mobile-view {
+		display: block;
+	}
+
+	.reviews-cover-bg, .reviews-bg {
+		height: 600px;
+	}
+	.order {
+		order: 1;
+	}
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}	
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1650px) {
+	.header-img img {
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
+}
