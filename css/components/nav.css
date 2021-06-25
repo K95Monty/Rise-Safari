@@ -1,0 +1,33 @@
+.nav-link {
+	color: #E84545;
+	font-weight: bold;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.2em;
+}
+
+.nav-link:hover {
+	color: #F2F1F1;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.active-link a {
+	color: #AA827A;
+	text-decoration: underline;
+}
+
+.navbar-brand span {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	top: 5px;
+	color: #E84545;
+	margin-left: 10px;
+	letter-spacing: 5px;
+
+}
+
+.navbar-toggler {
+	background-color: #E84545;
+}
