@@ -1,0 +1,110 @@
+.contact-cover-bg {
+	background-image: url('images/noisy-texture.png');
+	opacity: 0.4;
+	z-index: -2;	
+	width: 100%;
+	height: 550px;
+	position: absolute;
+	transform: skewY(2deg);
+  	transform-origin: bottom left;
+}
+
+.contact-header-bg {
+	z-index: -5;
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	background: #151515;
+		background: -moz-linear-gradient(45deg, #151515 0%, #373737 56%, #676767 100%);
+		background: -webkit-linear-gradient(45deg, #151515 0%, #373737 56%, #676767 100%);
+		background: linear-gradient(45deg, #151515 0%, #373737 56%, #676767 100%);
+	transform: skewY(2deg);
+  	transform-origin: bottom left;
+  );
+}
+
+#contact-header {
+	width: 100%;
+}
+
+#contact-page {
+	min-height: 600px;
+	max-height: 1000px;
+}
+
+#contact-header h1 {
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.8), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+#contact-text {
+	text-align: center;
+	padding: 50px;
+}
+
+#contact-text h2 {
+	font-weight: bold;
+	color: #F2F1F1;
+	font-size: 1.5em;
+	font-family: 'Merriweather', serif;
+}
+
+#contact-text h3 {
+	font-weight: bold;
+	color: #F2F1F1;
+	font-size: 1.4em;
+	padding-bottom: 30px;
+}
+
+#contact-text a {
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 4px;
+	border: 3px solid #AA827A;
+	color: #F2F1F1;
+	width: 200px;
+}
+
+#contact-text a:hover {
+	border: 4px solid #E84545;
+	color: #F2F1F1;
+	transition: 0.3s;
+	background-color: rgba(170, 130, 122, 0.5);
+}
+
+#contact-text p {
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #F2F1F1;
+	padding: 30px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#contact-page img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+#contact-small {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px;
+	font-size: 1.5em;
+	color: #151515;
+}
+
+#contact-small i {
+	display: block;
+	font-size: 3em;
+	color: #F2F1F1;
+	opacity: 0.8;
+	padding: 20px;
+}
