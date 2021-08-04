@@ -74,6 +74,9 @@ body {
 	#contact-header, #contact-text, #about-header {
 		text-align: center;
 	}
+	#header-btn {
+		display: none;
+	}
 	.mobile-view {
 		display: block;
 	}
