@@ -48,11 +48,14 @@ body {
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 768px) { 
-	.to-display {
+	.to-display, .review-content p {
 		display: none;
 	}
 	.reviews-cover-bg, .reviews-bg {
 		height: 700px;
+	}
+	.reviews {
+		height: 400px;
 	}
 }
 
@@ -80,6 +83,11 @@ body {
 	}
 	.order {
 		order: 1;
+	}
+
+	#contact-small {
+		font-size: 16px;
+		padding: 30px;
 	}
 }
 
