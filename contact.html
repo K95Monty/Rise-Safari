@@ -53,16 +53,40 @@
 					<img src="css/components/images/image3.png" alt="">
 				</div>
 				<div class="col-md-6">
-					<main id="contact-text">	
-						<h2>Want to make a suggestion?</h2>
-						<h3>Send us an email at:</h3>
-						<a href="" id="contact-btn">info@risesafari.com</a>
-						<p>Or find us online in the social media links below</p>
-					</main>
+					<div id="contact-text">	
+						<form id="contactForm">
+							<div class="row">
+						    	<div class="col-6">
+						    		<label for="first">First Name</label>
+						    		<input id="first" type="text" class="form-control" placeholder="First name" required>
+						    	</div>
+						    	<div class="col-6">
+						    		<label for="last">Last Name</label>
+						    		<input id="last" type="text" class="form-control" placeholder="Last name" required>
+						    	</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<label for="email">Email Address</label>
+									<input id="email" type="text" class="form-control" placeholder="monster@email.com" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="comment">Your Message:</label>
+								<textarea id="comment" class="form-control" name="comment" form="contactForm" rows="5" placeholder="Help a monster!" required></textarea>
+  							</div>
+							<p id="form-btn" class="btn"s onclick="contactFunction()">Submit</p>
+						</form>
+						<div id="form-display">
+							<h2>Thank you for your message</h2>
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>
-		<div id="contact-small">
+		<div id="contact-small" class="container">
+			<h2>If forms aren't your thing, send us an email at:</h2>
+			<a href="mailto: info@risesafari.com" id="contact-btn">info@risesafari.com</a>		
 			<span>Unlike our monsters we don't bite!</span>
 			<i class="fab fa-optin-monster"></i>
 		</div>
