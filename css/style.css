@@ -48,8 +48,14 @@ body {
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 768px) { 
-	.to-display, .review-content p {
+	#products {
+		background-color: #E84545;
+	}
+	.to-display, img {
 		display: none;
+	}
+	.to-display, .review-content p {
+		text-align: center;
 	}
 	.reviews-cover-bg, .reviews-bg {
 		height: 700px;
@@ -67,7 +73,6 @@ body {
 	.header-text h1 {
 		font-size: 3em;
 	}
-
 	.header-text h1, h2{
 		text-align: center;
 	}
@@ -80,7 +85,6 @@ body {
 	.mobile-view {
 		display: block;
 	}
-
 	.reviews-cover-bg, .reviews-bg {
 		height: 600px;
 	}

@@ -21,7 +21,6 @@
 		background: linear-gradient(45deg, #151515 0%, #373737 56%, #676767 100%);
 	transform: skewY(3deg);
   	transform-origin: bottom right;
-  );
 }
 
 #reviews {
